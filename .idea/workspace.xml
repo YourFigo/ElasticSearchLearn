@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2bbb9473-1ec2-4714-b8fb-85912ed5ea71" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esclient/src/main/java/cn/figo/ElasticSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/esclient/src/main/java/cn/figo/ElasticSearchTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ElasticSearchTest.setMappings">
     <configuration name="ElasticSearchTest.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="esclient" />
       <extension name="coverage">
@@ -88,8 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ElasticSearchTest.setMappings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.ElasticSearchTest" />
+      <option name="METHOD_NAME" value="setMappings" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ElasticSearchTest.setMappings" />
         <item itemvalue="JUnit.ElasticSearchTest.createIndex" />
       </list>
     </recent_temporary>
@@ -105,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577282489211</updated>
       <workItem from="1577282492172" duration="1433000" />
-      <workItem from="1577284026873" duration="640000" />
+      <workItem from="1577284026873" duration="1737000" />
     </task>
     <servers />
   </component>
