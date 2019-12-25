@@ -72,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ElasticSearchTest.setMappings">
+  <component name="RunManager" selected="JUnit.ElasticSearchTest.testAddDocument">
     <configuration name="ElasticSearchTest.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="esclient" />
       <extension name="coverage">
@@ -105,8 +105,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ElasticSearchTest.testAddDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.ElasticSearchTest" />
+      <option name="METHOD_NAME" value="testAddDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ElasticSearchTest.testAddDocument" />
         <item itemvalue="JUnit.ElasticSearchTest.setMappings" />
         <item itemvalue="JUnit.ElasticSearchTest.createIndex" />
       </list>
@@ -123,8 +140,16 @@
       <option name="presentableId" value="Default" />
       <updated>1577282489211</updated>
       <workItem from="1577282492172" duration="1433000" />
-      <workItem from="1577284026873" duration="1737000" />
+      <workItem from="1577284026873" duration="2246000" />
     </task>
+    <task id="LOCAL-00001" summary="添加mappings信息">
+      <created>1577286036097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577286036098</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,5 +165,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加mappings信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加mappings信息" />
   </component>
 </project>

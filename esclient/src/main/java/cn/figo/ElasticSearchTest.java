@@ -6,6 +6,7 @@ import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.XContentFactory;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.net.InetAddress;
@@ -15,6 +16,22 @@ import java.net.InetAddress;
  * @Date 2019/12/25 22:11
  */
 public class ElasticSearchTest {
+
+    private TransportClient client;
+
+    @Before
+    public void init() throws Exception {
+        //创建一个Settings对象
+        Settings settings = Settings.builder()
+                .put("cluster.name", "my-elasticsearch")
+                .build();
+        //创建一个TransPortClient对象
+        client = new PreBuiltTransportClient(settings)
+                .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("127.0.0.1"), 9300))
+                .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("127.0.0.1"), 9301))
+                .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("127.0.0.1"), 9302));
+
+    }
 
     @Test
     public void createIndex() throws Exception {
@@ -100,6 +117,30 @@ public class ElasticSearchTest {
         client.close();
     }
 
-
+    @Test
+    public void testAddDocument() throws Exception {
+        //创建一个client对象
+        //创建一个文档对象
+        XContentBuilder builder = XContentFactory.jsonBuilder()
+                .startObject()
+                .field("id", 1l)
+                .field("title", "1111北方入秋速度明显加快 多地降温幅度最多可达10度")
+                .field("content", "1111阿联酋一架客机在纽约机场被隔离 10名乘客病倒")
+                .endObject();
+        //把文档对象添加到索引库
+        client.prepareIndex()
+                //设置索引名称
+                .setIndex("index_hello")
+                //设置type
+                .setType("article")
+                //设置文档的id，如果不设置的话自动的生成一个id
+                .setId("1")
+                //设置文档信息
+                .setSource(builder)
+                //执行操作
+                .get();
+        //关闭客户端
+        client.close();
+    }
 
 }
