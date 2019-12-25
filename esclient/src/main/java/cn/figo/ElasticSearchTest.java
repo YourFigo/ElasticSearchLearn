@@ -1,10 +1,12 @@
 package cn.figo;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.XContentFactory;
+import org.elasticsearch.common.xcontent.XContentType;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
 import org.junit.Before;
 import org.junit.Test;
@@ -139,6 +141,50 @@ public class ElasticSearchTest {
                 .setSource(builder)
                 //执行操作
                 .get();
+        //关闭客户端
+        client.close();
+    }
+
+    // 使用 jackson 将 POJO类转为json
+    @Test
+    public void testAddDocument2() throws Exception {
+        //创建一个Article对象
+        Article article = new Article();
+        //设置对象的属性
+        article.setId(3l);
+        article.setTitle("MH370坠毁在柬埔寨密林?中国一公司调十颗卫星去拍摄");
+        article.setContent("警惕荒唐的死亡游戏!俄15岁少年输掉游戏后用电锯自杀");
+        //把article对象转换成json格式的字符串。
+        ObjectMapper objectMapper = new ObjectMapper();
+        String jsonDocument = objectMapper.writeValueAsString(article);
+        System.out.println(jsonDocument);
+        //使用client对象把文档写入索引库
+        client.prepareIndex("index_hello","article", "3")
+                .setSource(jsonDocument, XContentType.JSON)
+                .get();
+        //关闭客户端
+        client.close();
+    }
+
+    @Test
+    public void testAddDocument3() throws Exception {
+        for (int i = 4; i < 100; i++) {
+            //创建一个Article对象
+            Article article = new Article();
+            //设置对象的属性
+            article.setId(i);
+            article.setTitle("女护士路遇昏迷男子跪地抢救：救人是职责更是本能" + i);
+            article.setContent("江西变质营养餐事件已致24人就医 多名官员被调查" + i);
+            //把article对象转换成json格式的字符串。
+            ObjectMapper objectMapper = new ObjectMapper();
+            String jsonDocument = objectMapper.writeValueAsString(article);
+            System.out.println(jsonDocument);
+            //使用client对象把文档写入索引库
+            client.prepareIndex("index_hello","article", i + "")
+                    .setSource(jsonDocument, XContentType.JSON)
+                    .get();
+
+        }
         //关闭客户端
         client.close();
     }
