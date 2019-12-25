@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bbb9473-1ec2-4714-b8fb-85912ed5ea71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esclient/src/main/java/cn/figo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/esclient/src/main/java/cn/figo/SearchIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esclient/esclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/esclient/esclient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/esclient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esclient/src/main/java/cn/figo/ElasticSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/esclient/src/main/java/cn/figo/ElasticSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esclient/target/classes/cn/figo/ElasticSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/esclient/target/classes/cn/figo/ElasticSearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esclient/src/main/java/cn/figo/SearchIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/esclient/src/main/java/cn/figo/SearchIndex.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,55 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ElasticSearchTest.testAddDocument3">
-    <configuration name="ElasticSearchTest.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="esclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.ElasticSearchTest" />
-      <option name="METHOD_NAME" value="createIndex" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElasticSearchTest.setMappings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="esclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.ElasticSearchTest" />
-      <option name="METHOD_NAME" value="setMappings" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElasticSearchTest.testAddDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="esclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.ElasticSearchTest" />
-      <option name="METHOD_NAME" value="testAddDocument" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SearchIndex.testQueryStringQuery">
     <configuration name="ElasticSearchTest.testAddDocument2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="esclient" />
       <extension name="coverage">
@@ -162,13 +107,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchIndex.testQueryByTerm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.SearchIndex" />
+      <option name="METHOD_NAME" value="testQueryByTerm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchIndex.testQueryStringQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.SearchIndex" />
+      <option name="METHOD_NAME" value="testQueryStringQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchIndex.testSearchById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.SearchIndex" />
+      <option name="METHOD_NAME" value="testSearchById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchIndex.testQueryStringQuery" />
+        <item itemvalue="JUnit.SearchIndex.testQueryByTerm" />
+        <item itemvalue="JUnit.SearchIndex.testSearchById" />
         <item itemvalue="JUnit.ElasticSearchTest.testAddDocument3" />
         <item itemvalue="JUnit.ElasticSearchTest.testAddDocument2" />
-        <item itemvalue="JUnit.ElasticSearchTest.testAddDocument" />
-        <item itemvalue="JUnit.ElasticSearchTest.setMappings" />
-        <item itemvalue="JUnit.ElasticSearchTest.createIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577282489211</updated>
       <workItem from="1577282492172" duration="1433000" />
-      <workItem from="1577284026873" duration="2992000" />
+      <workItem from="1577284026873" duration="4852000" />
     </task>
     <task id="LOCAL-00001" summary="添加mappings信息">
       <created>1577286036097</created>
@@ -199,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577286459928</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="使用jackson和POJO类构造json来添加文档">
+      <created>1577287181365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577287181365</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加mappings信息" />
     <MESSAGE value="添加 文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 文档" />
+    <MESSAGE value="使用jackson和POJO类 添加文档" />
+    <MESSAGE value="使用jackson和POJO类构造json来添加文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用jackson和POJO类构造json来添加文档" />
   </component>
 </project>
