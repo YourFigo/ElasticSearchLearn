@@ -176,7 +176,8 @@
       <option name="presentableId" value="Default" />
       <updated>1577282489211</updated>
       <workItem from="1577282492172" duration="1433000" />
-      <workItem from="1577284026873" duration="4852000" />
+      <workItem from="1577284026873" duration="5380000" />
+      <workItem from="1577363643091" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="添加mappings信息">
       <created>1577286036097</created>
@@ -199,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577287181365</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="三种方式实现查询索引">
+      <created>1577289000690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577289000690</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +218,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -221,6 +231,7 @@
     <MESSAGE value="添加 文档" />
     <MESSAGE value="使用jackson和POJO类 添加文档" />
     <MESSAGE value="使用jackson和POJO类构造json来添加文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用jackson和POJO类构造json来添加文档" />
+    <MESSAGE value="三种方式实现查询索引" />
+    <option name="LAST_COMMIT_MESSAGE" value="三种方式实现查询索引" />
   </component>
 </project>
