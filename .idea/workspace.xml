@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bbb9473-1ec2-4714-b8fb-85912ed5ea71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springdataElasticsearch/src/main/java/cn/figo/es/repositories/ArticleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springdataElasticsearch/src/test/java/SpringDataElasticSearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdataElasticsearch/springdataElasticsearch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springdataElasticsearch/springdataElasticsearch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdataElasticsearch/src/main/java/cn/figo/es/repositories/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdataElasticsearch/src/main/java/cn/figo/es/repositories/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdataElasticsearch/src/test/java/SpringDataElasticSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdataElasticsearch/src/test/java/SpringDataElasticSearchTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,76 +76,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringDataElasticSearchTest.createIndex">
-    <configuration name="ElasticSearchTest.testAddDocument3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="esclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.ElasticSearchTest" />
-      <option name="METHOD_NAME" value="testAddDocument3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchIndex.testQueryByTerm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="esclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.SearchIndex" />
-      <option name="METHOD_NAME" value="testQueryByTerm" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchIndex.testQueryStringQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="esclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.SearchIndex" />
-      <option name="METHOD_NAME" value="testQueryStringQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchIndex.testSearchById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="esclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.SearchIndex" />
-      <option name="METHOD_NAME" value="testSearchById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringDataElasticSearchTest.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpringDataElasticSearchTest.findByNativeQuery">
+    <configuration name="SpringDataElasticSearchTest.findByNativeQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springdataElasticsearch" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SpringDataElasticSearchTest" />
-      <option name="METHOD_NAME" value="createIndex" />
+      <option name="METHOD_NAME" value="findByNativeQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataElasticSearchTest.findByTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdataElasticsearch" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpringDataElasticSearchTest" />
+      <option name="METHOD_NAME" value="findByTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataElasticSearchTest.findByTitleOrContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdataElasticsearch" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpringDataElasticSearchTest" />
+      <option name="METHOD_NAME" value="findByTitleOrContent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataElasticSearchTest.findByTitleOrContentPageable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdataElasticsearch" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpringDataElasticSearchTest" />
+      <option name="METHOD_NAME" value="findByTitleOrContentPageable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataElasticSearchTest.saveArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdataElasticsearch" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpringDataElasticSearchTest" />
+      <option name="METHOD_NAME" value="saveArticle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringDataElasticSearchTest.createIndex" />
-        <item itemvalue="JUnit.SearchIndex.testQueryStringQuery" />
-        <item itemvalue="JUnit.SearchIndex.testQueryByTerm" />
-        <item itemvalue="JUnit.SearchIndex.testSearchById" />
-        <item itemvalue="JUnit.ElasticSearchTest.testAddDocument3" />
+        <item itemvalue="JUnit.SpringDataElasticSearchTest.findByNativeQuery" />
+        <item itemvalue="JUnit.SpringDataElasticSearchTest.findByTitleOrContentPageable" />
+        <item itemvalue="JUnit.SpringDataElasticSearchTest.saveArticle" />
+        <item itemvalue="JUnit.SpringDataElasticSearchTest.findByTitleOrContent" />
+        <item itemvalue="JUnit.SpringDataElasticSearchTest.findByTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +150,8 @@
       <workItem from="1577282492172" duration="1433000" />
       <workItem from="1577284026873" duration="5380000" />
       <workItem from="1577363643091" duration="1893000" />
-      <workItem from="1577370247240" duration="742000" />
+      <workItem from="1577370247240" duration="942000" />
+      <workItem from="1577371270470" duration="3321000" />
     </task>
     <task id="LOCAL-00001" summary="添加mappings信息">
       <created>1577286036097</created>
@@ -233,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577369878104</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="spring data elasticsearch 测试创建索引库">
+      <created>1577371186109</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577371186109</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +229,7 @@
     <MESSAGE value="三种方式实现查询索引" />
     <MESSAGE value="高亮显示查询结果" />
     <MESSAGE value="spring data elasticsearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring data elasticsearch" />
+    <MESSAGE value="spring data elasticsearch 测试创建索引库" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring data elasticsearch 测试创建索引库" />
   </component>
 </project>
