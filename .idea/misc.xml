@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/esclient/pom.xml" />
+        <option value="$PROJECT_DIR$/springdataElasticsearch/pom.xml" />
       </list>
     </option>
   </component>

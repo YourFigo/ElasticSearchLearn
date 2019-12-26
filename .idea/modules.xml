@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/esclient/esclient.iml" filepath="$PROJECT_DIR$/esclient/esclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springdataElasticsearch/springdataElasticsearch.iml" filepath="$PROJECT_DIR$/springdataElasticsearch/springdataElasticsearch.iml" />
     </modules>
   </component>
 </project>

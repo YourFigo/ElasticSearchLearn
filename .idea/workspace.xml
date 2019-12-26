@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bbb9473-1ec2-4714-b8fb-85912ed5ea71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springdataElasticsearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdataElasticsearch/springdataElasticsearch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdataElasticsearch/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esclient/src/main/java/cn/figo/SearchIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/esclient/src/main/java/cn/figo/SearchIndex.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +182,7 @@
       <updated>1577282489211</updated>
       <workItem from="1577282492172" duration="1433000" />
       <workItem from="1577284026873" duration="5380000" />
-      <workItem from="1577363643091" duration="598000" />
+      <workItem from="1577363643091" duration="1468000" />
     </task>
     <task id="LOCAL-00001" summary="添加mappings信息">
       <created>1577286036097</created>
@@ -207,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577289000690</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="高亮显示查询结果">
+      <created>1577368850380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577368850380</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +244,7 @@
     <MESSAGE value="使用jackson和POJO类 添加文档" />
     <MESSAGE value="使用jackson和POJO类构造json来添加文档" />
     <MESSAGE value="三种方式实现查询索引" />
-    <option name="LAST_COMMIT_MESSAGE" value="三种方式实现查询索引" />
+    <MESSAGE value="高亮显示查询结果" />
+    <option name="LAST_COMMIT_MESSAGE" value="高亮显示查询结果" />
   </component>
 </project>
