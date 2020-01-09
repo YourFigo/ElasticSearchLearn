@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2bbb9473-1ec2-4714-b8fb-85912ed5ea71" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdataElasticsearch/src/main/java/cn/figo/es/repositories/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdataElasticsearch/src/main/java/cn/figo/es/repositories/ArticleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdataElasticsearch/src/test/java/SpringDataElasticSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdataElasticsearch/src/test/java/SpringDataElasticSearchTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -151,7 +150,8 @@
       <workItem from="1577284026873" duration="5380000" />
       <workItem from="1577363643091" duration="1893000" />
       <workItem from="1577370247240" duration="942000" />
-      <workItem from="1577371270470" duration="3321000" />
+      <workItem from="1577371270470" duration="3628000" />
+      <workItem from="1577458893134" duration="856000" />
     </task>
     <task id="LOCAL-00001" summary="添加mappings信息">
       <created>1577286036097</created>
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577371186109</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="spring data elasticsearch 查询文档">
+      <created>1577374853157</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577374853157</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +237,7 @@
     <MESSAGE value="高亮显示查询结果" />
     <MESSAGE value="spring data elasticsearch" />
     <MESSAGE value="spring data elasticsearch 测试创建索引库" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring data elasticsearch 测试创建索引库" />
+    <MESSAGE value="spring data elasticsearch 查询文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring data elasticsearch 查询文档" />
   </component>
 </project>
