@@ -152,6 +152,10 @@
       <workItem from="1577370247240" duration="942000" />
       <workItem from="1577371270470" duration="3628000" />
       <workItem from="1577458893134" duration="856000" />
+      <workItem from="1578582648545" duration="455000" />
+      <workItem from="1578802859177" duration="458000" />
+      <workItem from="1578803829306" duration="73000" />
+      <workItem from="1578803948791" duration="1323000" />
     </task>
     <task id="LOCAL-00001" summary="添加mappings信息">
       <created>1577286036097</created>
@@ -209,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577374853157</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="elasticsearch readme">
+      <created>1578582793900</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578582793900</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +249,7 @@
     <MESSAGE value="spring data elasticsearch" />
     <MESSAGE value="spring data elasticsearch 测试创建索引库" />
     <MESSAGE value="spring data elasticsearch 查询文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring data elasticsearch 查询文档" />
+    <MESSAGE value="elasticsearch readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="elasticsearch readme" />
   </component>
 </project>
